@@ -3,3 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "valorant";
+    src: url("../fonts/Valorant\ Font.ttf");
+}

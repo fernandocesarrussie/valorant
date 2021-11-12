@@ -88,7 +88,9 @@ export const BoxText = styled.div`
     background-color: ;
 ` 
 export const TitleB = styled.h1`
+    font-family: "valorant";
     font-size: 10vw;
+    text-shadow: 0px -1px 0px rgba(150, 150, 150, 1);
 `
 export const SubTitleB = styled.h2`
     
