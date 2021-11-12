@@ -7,3 +7,7 @@
     font-family: "valorant";
     src: url("../fonts/Valorant\ Font.ttf");
 }
+@font-face {
+    font-family: "valorant1";
+    src: url("../fonts/FontFont_FF.Mark.Pro.Black.otf");
+}

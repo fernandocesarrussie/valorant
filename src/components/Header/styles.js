@@ -27,6 +27,7 @@ export const BtnNav = styled.button`
     padding-bottom: 5px;
     border: 0px;
     background-color: transparent;
+    font-family: "valorant1";
     color: #FBE8F9;
     font-size:1.5vw;
     display: flex;
