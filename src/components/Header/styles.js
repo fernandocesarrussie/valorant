@@ -6,7 +6,8 @@ export const SectionHeader = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: #111111;
+    box-shadow:0px 30px 30px 0px rgba(0,0,0,0.75);
 `
 export const Logo = styled.img`
     width: 5.5vw;
@@ -67,5 +68,70 @@ export const SectionBackground = styled.section`
     background-image: url(${props => props.back});
     background-position: center;
     background-size: cover;
-    height: 125vh;
+    height: 98vh;
+    color: #ECE8E2;
+`
+export const BoxBackground = styled.div`
+    width: 50%;
+    height: 75%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+`
+export const BoxText = styled.div`
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: ;
+` 
+export const TitleB = styled.h1`
+    font-size: 10vw;
+`
+export const SubTitleB = styled.h2`
+    
+`
+export const ParagraphB = styled.p`
+    
+`
+export const BtnBackground = styled.button`
+    width: 12vw;
+    height: 9vh;
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    background-color: #F84754;
+    color: #FBE8F9;
+    font-size:1.5vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1);
+        border-radius: 1px;
+    }
+
+    &:hover:after {
+    width: 100%;
+    }
+    
+    &:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #0F1923;
+    }
 `

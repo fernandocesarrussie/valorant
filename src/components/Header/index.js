@@ -50,7 +50,14 @@ export function Header() {
                 </div>
             </S.SectionHeader>
             <S.SectionBackground back={imgbackground.url}>
-
+                <S.BoxBackground>
+                    <S.BoxText>
+                        <S.TitleB>{titlebackground}</S.TitleB>
+                        <S.SubTitleB>{stitlebackground}</S.SubTitleB>
+                        <S.ParagraphB>{textbackground}</S.ParagraphB>
+                    </S.BoxText>
+                    <S.BtnBackground>{btnplay}</S.BtnBackground>
+                </S.BoxBackground>
             </S.SectionBackground>
             <p>oi</p>
         </div>
