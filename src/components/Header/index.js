@@ -24,13 +24,16 @@ export function Header() {
                     stitlebackground
                     textbackground
                     titlebackground
+                    imgtitle {
+                        url
+                    }
                   }
             }
         }
 
     `)
 
-    const { btnhome, btnmidia, btnnews, btnplay, btnsocial, btnsuporte, imgbackground, imglogo, stitlebackground, textbackground, titlebackground } = data.valorantdata.headers[0]
+    const {video, imgtitle, btnhome, btnmidia, btnnews, btnplay, btnsocial, btnsuporte, imgbackground, imglogo, stitlebackground, textbackground, titlebackground } = data.valorantdata.headers[0]
 
     return (
         <div>
@@ -52,14 +55,15 @@ export function Header() {
             <S.SectionBackground back={imgbackground.url}>
                 <S.BoxBackground>
                     <S.BoxText>
-                        <S.TitleB>{titlebackground}</S.TitleB>
+                        <S.ImgTitle src={imgtitle.url}/>
                         <S.SubTitleB>{stitlebackground}</S.SubTitleB>
                         <S.ParagraphB>{textbackground}</S.ParagraphB>
                     </S.BoxText>
-                    <S.BtnBackground>{btnplay}</S.BtnBackground>
+                    <S.BorderBtn>
+                        <S.BtnBackground>{btnplay}</S.BtnBackground>
+                    </S.BorderBtn>
                 </S.BoxBackground>
             </S.SectionBackground>
-            <p>oi</p>
         </div>
     )
 }

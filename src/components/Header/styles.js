@@ -8,13 +8,13 @@ export const SectionHeader = styled.section`
     align-items: center;
     background-color: #111111;
     box-shadow:0px 30px 30px 0px rgba(0,0,0,0.75);
+    z-index: 2;
 `
 export const Logo = styled.img`
-    width: 5.5vw;
+    width: 4.5vw;
     cursor: pointer ;
 `
 export const Navegation = styled.div`
-    
     width: 40%;
     height: 80%;
     display: flex;
@@ -27,7 +27,6 @@ export const BtnNav = styled.button`
     padding-bottom: 5px;
     border: 0px;
     background-color: transparent;
-    font-family: "valorant1";
     color: #FBE8F9;
     font-size:1.5vw;
     display: flex;
@@ -42,14 +41,13 @@ export const BtnNav = styled.button`
     }
 `
 export const BtnPlay = styled.button`
-    width: 10vw;
-    height: 8vh;
-    border-radius: 4px;
+    width: 14vw;
+    height: 7vh;
     padding: 5px;
     border: none;
     background-color: #F84754;
     color: #FBE8F9;
-    font-size:1.5vw;
+    font-size:1.4vw;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -59,8 +57,7 @@ export const BtnPlay = styled.button`
 
     &:hover {
         transform: scale(1.1);
-        background-color: black;
-        color: #F84754;
+        background-color: #0F1923;
         border-bottom: 2px solid #F84754;
         border-radius: 1px;
     }
@@ -69,12 +66,12 @@ export const SectionBackground = styled.section`
     background-image: url(${props => props.back});
     background-position: center;
     background-size: cover;
-    height: 98vh;
+    height: 55vh;
     color: #ECE8E2;
 `
 export const BoxBackground = styled.div`
     width: 50%;
-    height: 75%;
+    height: 90%;
     margin-left: 50px;
     display: flex;
     justify-content: flex-end;
@@ -88,26 +85,40 @@ export const BoxText = styled.div`
     flex-direction: column;
     background-color: ;
 ` 
+export const ImgTitle = styled.img`
+    width: 50vw;
+`
 export const TitleB = styled.h1`
     font-family: "valorant";
     font-size: 10vw;
     text-shadow: 0px -1px 0px rgba(150, 150, 150, 1);
 `
 export const SubTitleB = styled.h2`
-    
+    font-size: 1.8vw;
+    text-shadow: 0px 2px 2px #000000;
 `
 export const ParagraphB = styled.p`
-    
+    width: 70%;
+    font-size: 1vw;
+    text-shadow: 0px 2px 2px #000000;
+`
+export const BorderBtn = styled.div`
+    width: 15vw;
+    height: 8.5vh;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 `
 export const BtnBackground = styled.button`
-    width: 12vw;
-    height: 9vh;
-    border-radius: 4px;
+    width: 95%;
+    height: 80%;
     padding: 5px;
     border: none;
     background-color: #F84754;
     color: #FBE8F9;
-    font-size:1.5vw;
+    font-size:1.4vw;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -115,7 +126,7 @@ export const BtnBackground = styled.button`
     cursor: pointer;
     outline: none;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 
     &:hover {
         transform: scale(1);
