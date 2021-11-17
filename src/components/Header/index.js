@@ -57,7 +57,6 @@ export function Header() {
                     <S.BoxText>
                         <S.ImgTitle src={imgtitle.url}/>
                         <S.SubTitleB>{stitlebackground}</S.SubTitleB>
-                        <S.ParagraphB>{textbackground}</S.ParagraphB>
                     </S.BoxText>
                     <S.BorderBtn>
                         <S.BtnBackground>{btnplay}</S.BtnBackground>

@@ -66,22 +66,22 @@ export const SectionBackground = styled.section`
     background-image: url(${props => props.back});
     background-position: center;
     background-size: cover;
-    height: 55vh;
+    height: 75vh;
     color: #ECE8E2;
 `
 export const BoxBackground = styled.div`
-    width: 50%;
+    width: 100%;
     height: 90%;
-    margin-left: 50px;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 `
 export const BoxText = styled.div`
     height: 70%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items:center;
     flex-direction: column;
     background-color: ;
 ` 
