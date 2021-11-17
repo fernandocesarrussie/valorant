@@ -1,12 +1,13 @@
 <p align="center">
-  <a href="https://valorantvnw.netlify.app" target="_blank">
+  <a href="https://valorantvnw.netlify.app">
     <img alt="Gatsby" src="https://cdn.dribbble.com/users/2348/screenshots/10696082/media/4a24583ea649f9df1415775a37c84ae5.png?compress=1&resize=400x300" width="60" />
   </a>
 </p>
+<a href="https://valorantvnw.netlify.app">
 <h1 align="center">
-  Gatsby minimal starter
+  Clique aqui para ver o projeto
 </h1>
-
+</a>
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
