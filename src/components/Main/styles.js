@@ -15,7 +15,7 @@ export const ContainerAbout = styled.div`
 
 `
 export const TitleAbout = styled.h2`
-    width: 95%;
+    width: 93%;
     font-size:6.5vw;
     color: #ECE8E2;
 `
@@ -47,7 +47,7 @@ export const BoxImageAbout = styled.div`
     position: relative;
     `
 export const ImgVideo = styled.img` 
-    max-width: 45vw;
+    max-width: 40vw;
 `
 export const Play = styled.img` 
     width: 40px;

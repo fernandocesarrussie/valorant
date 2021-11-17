@@ -43,23 +43,21 @@ export const BtnNav = styled.button`
 export const BtnPlay = styled.button`
     width: 14vw;
     height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     border: none;
     background-color: #F84754;
     color: #FBE8F9;
     font-size:1.4vw;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-transform: uppercase;
     cursor: pointer;
     transition: all 0.5s;
 
     &:hover {
         transform: scale(1.1);
-        background-color: #0F1923;
-        border-bottom: 2px solid #F84754;
-        border-radius: 1px;
     }
 `
 export const SectionBackground = styled.section`
@@ -74,16 +72,15 @@ export const BoxBackground = styled.div`
     height: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 `
 export const BoxText = styled.div`
-    height: 70%;
+    height: 35%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
     flex-direction: column;
-    background-color: ;
 ` 
 export const ImgTitle = styled.img`
     width: 50vw;
@@ -94,7 +91,7 @@ export const TitleB = styled.h1`
     text-shadow: 0px -1px 0px rgba(150, 150, 150, 1);
 `
 export const SubTitleB = styled.h2`
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     text-shadow: 0px 2px 2px #000000;
 `
 export const ParagraphB = styled.p`
@@ -114,15 +111,16 @@ export const BorderBtn = styled.div`
 export const BtnBackground = styled.button`
     width: 95%;
     height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     border: none;
     background-color: #F84754;
     color: #FBE8F9;
     font-size:1.4vw;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-transform: uppercase;
     cursor: pointer;
     outline: none;
     overflow: hidden;
