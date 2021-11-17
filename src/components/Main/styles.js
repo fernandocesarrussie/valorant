@@ -11,8 +11,7 @@ export const ContainerAbout = styled.div`
     justify-content: space-around;
     flex-direction: column;
     padding: 40px;
-    background-color: #F44653;
-
+    background-color: #F84754;
 `
 export const TitleAbout = styled.h2`
     width: 93%;
@@ -60,12 +59,12 @@ export const Play = styled.img`
     }
 `
 export const ContainerCards = styled.section`
-    width: 100vw;
-    min-height: 150vh;
+    width: 100%;
+    min-height: 180vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #0F1923;
+    background-color: #0F1923;
 `
 export const Section = styled.div` 
     width: 90vw;
@@ -90,6 +89,7 @@ export const TitleCard = styled.h2`
     font-size: 2.5vw;
     color: white;
     border-bottom: 1px solid white;
+    
 `
 export const BoxImage = styled.figure`
     width: 75%;
@@ -157,4 +157,77 @@ export const BtnMore = styled.button`
 `
 export const BoxText = styled.div` 
 
+`
+
+export const ContainerAgents = styled.section`
+    max-width: 100%;
+    max-height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #0F1923;
+    color: #ECE8E2;
+    padding: 40px;
+`
+export const Agents = styled.img` 
+    max-width: 50vw;
+    
+`
+export const BoxTextAgents = styled.div` 
+    max-width: 35vw;
+    max-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+`
+export const TitleAgents = styled.h2` 
+    font-size: 9.5vw;
+`
+export const ParagraphAgents = styled.p` 
+    font-size: 1.4vw;
+`
+export const BoxItemAgents = styled.div` 
+    background-color:blue;
+`
+export const TextBio = styled.p` 
+    
+`
+export const TextClass = styled.p` 
+    
+`
+export const TextEquip = styled.p` 
+    
+`
+export const BoxCollectionAgents = styled.div` 
+    background-color:;
+`
+export const BoxBtnAgent = styled.div`
+    max-width: 15vw;
+    max-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: 20px;
+`
+export const BtnAgent = styled.button`
+    width: 90%;
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #F84754;
+    color: #FBE8F9;
+    font-size:1.3vw;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    &:hover {
+        transform: scale(1.03);
+    }
 `

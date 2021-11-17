@@ -34,13 +34,24 @@ export function Main() {
                     imgplayer {
                         url
                     }
+                    btnagents
+                    backgroundagents {
+                        url
+                    }
+                    collectionagents {
+                        url
+                    }
+                    textbiografia
+                    textclass
+                    textequip
+                    paragraphagents
                 }                
             }
         }
 
     `)
 
-    const { imgplayer, aboutparagraph,btnmain,imgagents,titleabout,imgmaps,imgmidia,imgnews,titleagents,titlemaps,titlemidia,titlenews,videoabout} = data.valorantdata.mains[0]
+    const { btnagents, backgroundagents, collectionagents, textbiografia, textclass, textequip, paragraphagents, imgplayer, aboutparagraph,btnmain,imgagents,titleabout,imgmaps,imgmidia,imgnews,titleagents,titlemaps,titlemidia,titlenews,videoabout} = data.valorantdata.mains[0]
 
     return (
         <S.Container>
@@ -96,7 +107,18 @@ export function Main() {
                     </S.BoxCard>
                 </S.Section>
             </S.ContainerCards>
-            
+            <S.ContainerAgents>
+                <S.BoxTextAgents>
+                    <S.TitleAgents>{titleagents}</S.TitleAgents>
+                    <S.ParagraphAgents>{paragraphagents}</S.ParagraphAgents>
+                    <S.BoxBtnAgent>
+                        <S.BtnAgent>{btnagents}</S.BtnAgent>
+                    </S.BoxBtnAgent>
+                </S.BoxTextAgents>
+                <S.BoxCollectionAgents>
+                    <S.Agents src={collectionagents.url} alt=""/>
+                </S.BoxCollectionAgents>
+            </S.ContainerAgents>
         </S.Container>
     )
 }

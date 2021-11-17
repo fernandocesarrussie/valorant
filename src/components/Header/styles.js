@@ -64,7 +64,7 @@ export const SectionBackground = styled.section`
     background-image: url(${props => props.back});
     background-position: center;
     background-size: cover;
-    height: 75vh;
+    height: 85vh;
     color: #ECE8E2;
 `
 export const BoxBackground = styled.div`

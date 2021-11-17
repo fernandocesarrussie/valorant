@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div` 
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -25,6 +25,7 @@ export const BoxTitle = styled.div`
     justify-content: space-around;
 `
 export const TitleFooter = styled.h3` 
+    font-size: 1.8vw;
     cursor: pointer;
     transition: all ease 0.3s;
 
