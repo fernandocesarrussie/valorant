@@ -71,8 +71,8 @@ export const Section = styled.div`
     min-height: 150vh;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 `
 export const BoxCard = styled.div` 
     width: 28rem;
