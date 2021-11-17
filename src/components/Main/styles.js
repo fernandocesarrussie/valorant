@@ -85,10 +85,11 @@ export const BoxCard = styled.div`
     border: 1px solid white;
 `
 export const TitleCard = styled.h2` 
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-size: 2.5vw;
     color: white;
+    border-bottom: 1px solid white;
 `
 export const BoxImage = styled.figure`
     width: 75%;
